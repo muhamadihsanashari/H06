@@ -1,0 +1,497 @@
+/*===========================================================================================================================*/
+/*                                            DIBAWAH INI ADALAH BAGIAN HEADER                                               */
+/*===========================================================================================================================*/
+*{
+	box-sizing:border-box;
+}
+
+a{
+	text-decoration:none;
+}
+
+.clear{
+	clear:left;
+}
+
+.header{
+	max-width:1920px;
+	width:95%;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.def{
+	margin-right:5px;
+}
+
+body{
+	margin:0;
+	font-family:url(https://drive.google.com/uc?export=view&id=1_ye8swWcvt0ggeZB-utWPxXomflrYzlv);
+}
+
+header{
+	height:65px;
+	width:100%;
+	background-color:rgba(34,49,52,0.9);
+	position:fixed;
+	top:0;
+	z-index:10;
+}
+
+.logo{
+	float:left;
+	margin-top:-15px;
+	margin-left:-65px;
+	width: 50px;
+	height: 50px;
+}
+
+.header-logo{
+	margin-top:20px;
+	margin-left:2px;
+	padding:2px 35px;
+	font-size:20px;
+	color:white;
+	display:block;
+}
+
+.header-list{
+	float:right;
+	padding-right:100px;
+}
+
+.menu{
+	font-size:20px;
+	margin-top:-46px;
+	padding:20px 50px;
+	color:white;
+	display:block;
+	float:left;
+	transition:all 0.5s;
+	opacity:0.8;
+}
+
+.menu a: hover{
+	opacity:1;
+	background-color:red;
+}
+
+.header-right{
+	float:right;
+}
+
+.header-right a{
+  	border-radius:10px;
+	font-size:20px;
+	margin-top:-38px;
+	padding:20px 50px;
+	display:block;
+	float:right;
+	transition:all 0.5s;
+	line-height: 5px;
+  	background-color:#3C82F2;
+  	width:100%;
+  	opacity:0.8;
+		color:white;
+}
+
+.header-right a: hover{
+	opacity:1;
+	background-color:red;
+}
+
+.span1{
+	color:black;
+}
+
+.span2{
+	color:black;
+}
+
+.header-left{
+ 	color:grey;
+	font-weight:normal;
+  	font-size:25px;
+  	float:left;
+  	padding: 65px 20px;
+	line-height: 30px;
+}
+
+.header-left p{
+ 	color:ash grey;
+  	font-size:15px;
+  	width:45%;
+  	margin-bottom:50px;
+  	margin-top:40px;
+}
+
+.jelajahi{
+	border-radius:10px;
+	font-size:20px;
+	margin-top:-38px;
+	padding:0px 30px;
+	float:left;
+	transition:all 0.5s;
+	line-height: 40px;
+  	background-color:#3C82F2;
+  	width:16%;
+  	opacity:0.8;
+	color:white;
+}
+
+.jelajahi: hover{
+	opacity:1;
+	background-color:blue;
+}
+
+.header-left h1{
+	font-size:40px;
+}
+
+.pesawat{
+  	height:350px;
+  	margin-top: 60px;
+  	padding: 15px 0px;
+  	float:right;
+}
+
+.sign-up:hover {
+  	border: none;
+  	border: solid 1px #ccc;
+  	background-color: #2e60af;
+}
+
+/*===========================================================================================================================*/
+/*                                             DIBAWAH INI ADALAH BAGIAN BODY                                                */
+/*===========================================================================================================================*/
+.konten-wrapper{
+	height:300px;
+	padding-bottom:10px;
+	text-align: center;
+}
+
+.konten1{
+	display:inline-block;
+	height:100px;
+	margin-top:20px;
+	margin-left:5px;
+}
+
+.item1{
+	float:left;
+	margin-top:40px;
+	margin-left:80px;
+	margin-right:60px;
+	padding-top:10px;
+	padding-bottom:5px;
+	padding-right:10px;
+	padding-left:10px;
+	font-size:15px;
+}
+
+.item-icon1{
+	margin-right:-25px;
+	margin-left:-25px;
+	padding-top:50px;
+	padding-bottom:100px;
+	display: block;
+	background-color: #dae8ea;
+}
+
+.item-icon2{
+	margin-right:-25px;
+	margin-left:-25px;
+	padding-top:50px;
+	padding-bottom:100px;
+	display: block;
+	background-color: #dde9f2;
+}
+
+.item-icon3{
+	margin-right:-25px;
+	margin-left:-25px;
+	padding-top:50px;
+	padding-bottom:100px;
+	display: block;
+	background-color: #feeade;
+}
+
+.item1 img{
+	display: inline-block;
+	height: 100px;
+	width: 95px;
+}
+
+.item1 p{
+	display: inline-block;
+	width:100%;
+	margin-top:20px;
+	font-size:18px;
+	color:black;
+}
+
+.konten2{
+	display: inline-block;
+	height:300px;
+	margin-top:50px;
+	padding-left:5px;
+}
+
+.item2{
+	float:left;
+	margin-right:5px;
+	padding-left:40px;
+	padding-bottom:10px;
+}
+
+.item2 img{
+	display: inline-block;
+	height: 300px;
+	width: 220px;
+}
+
+.ket2{
+	margin-top:250px;
+}
+.txt1{
+	width:80%;
+	display:inline-block;
+	margin-top:120px;
+	font-size:25px;
+	color:black;
+}
+
+.txt2{
+	width:80%;
+	display:inline-block;
+	margin-top:2px;
+	font-size:15px;
+	color:grey;
+	padding-bottom:10px;
+}
+
+.info1 {
+	border-radius:10px;
+  	line-height: 30px;
+	display: inline-block;
+	padding: 30 40px;
+  	width:50%;
+	background-color: #086972;
+	color: white;
+	opacity:0.8;
+}
+
+.info1:hover{
+	opacity:1;
+	border: 1px solid #b1b1b1;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.info2{
+	border-radius:10px;
+  	line-height: 30px;
+	display: inline-block;
+	padding: 30 40px;
+  	width:50%;
+	background-color: #1b6ca8;
+	color: white;
+	opacity:0.8;
+}
+
+.info2:hover{
+	opacity:1;
+	border: 1px solid #b1b1b1;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.info3{
+  	border-radius:10px;
+  	line-height: 30px;
+	display: inline-block;
+	padding: 30 40px;
+  	width:50%;
+	background-color: #f37121;
+	color: white;
+	opacity:0.8;
+}
+
+.info3:hover{
+	opacity:1;
+	border: 1px solid #b1b1b1;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.pesawat-animasi{
+	margin-top:50px;
+	width:150px;
+   	height:100px;
+}
+
+.animasi1 p{
+   	color:#3C82F2;
+}
+/*===========================================================================================================================*/
+/*                                            DIBAWAH INI ADALAH BAGIAN FOOTER                                               */
+/*===========================================================================================================================*/
+footer{
+	margin-top:525px;
+	padding-top:300px;
+}
+
+.contact-submit {
+  	background-color: #0d22df;
+  	color: #889eab;
+}
+
+.clearfix::after {
+  	content: "";
+  	clear: both;
+  	display: table;
+}
+
+.form-footer {
+	margin-top: 50px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.input-email {
+  	width: 300px;
+ 	padding: 15px;
+ 	border: none;
+  	border: solid 1px #ccc;
+  	border-radius: 10px;
+}
+
+.button-kirim {
+  	width: 100px;
+  	padding: 15px;
+  	border: none;
+  	border: solid 1px #ccc;
+  	border-radius: 10px;
+  	background-color: #3c82f2;
+  	color: #ffffff;
+  	font-size: 16px;
+  	font-weight: bold;
+}
+
+.button-kirim:hover {
+  	border: none;
+  	border: solid 1px #ccc;
+  	background-color: #2e60af;
+}
+
+.awan{
+	height:600px;
+	width:80px;
+	z-index:5;
+}
+
+nav{
+	line-height:100px;
+	position:relative;]
+	width:750px;
+	margin:auto;
+	padding:0px 25px;
+	width:100%;
+	background-color:rgba(34,49,52,0.9);
+	z-index:9;
+}
+
+nav a{
+	text-decoration:none;
+	right:100px;
+	padding:0px 20px;
+}
+
+.footer{
+	padding-top: 30px;
+}
+
+.lweb img{
+	float:left;
+	width:40px;
+	height:40px;
+	margin-right:10px;
+	margin-top:-15px;
+}
+
+.logoweb {
+	float:right;
+	margin-top:15px;
+	margin-left:2px;
+	margin-right:2px;
+	font-size:20px;
+	display:block;
+	line-height:10px;
+	color:#3C82F2;
+	font-color:25px;
+}
+
+.btn{
+	height:45px;
+	width:45px;
+}
+
+.menu-btn {
+   background-color: #7e32d4;
+   color: white;
+   padding: 2px 2px;
+   font-size: 20px;
+   font-weight: bolder;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   border: none;
+}
+
+.dropdown-menu {
+   position: relative;
+   display: inline-block;
+   padding-top: 1px;
+   right:20px;
+}
+
+.menu-content {
+   display: none;
+   position: absolute;
+   bottom: 50px;
+   background-color: #017575;
+   min-width: 160px;
+   z-index: 1;
+}
+
+.links {
+   color: rgb(255, 255, 255);
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+   font-size: 18px;
+   font-weight: bold;
+   border-bottom: 1px solid black;
+}
+
+.links:hover {
+   background-color: rgb(8, 107, 46);
+}
+
+.dropdown-menu:hover .menu-content {
+   display: block;
+}
+
+.dropdown-menu:hover .menu-btn {
+   background-color: #3e8e41;
+}
+
+/*===========================================================================================================================*/
+/*                                         DIBAWAH INI NAMA ANGGOTA TIM KAMI (CEB H-06)                                      */
+/*===========================================================================================================================*/
+/* 1. DEVAN CAKRA MUDRA WIJAYA                                                                                               */
+/* 2. HERI KHARIONO                                                                                                          */
+/* 3. MUHAMAD IHSAN ASHARI                                                                                                   */
+/* 4. INDRA HERMANTO                                                                                                         */
+/* 5. CAROLINE WYNNE                                                                                                         */
+/*===========================================================================================================================*/
+
+
+
+/*Copyright(c) WEB OBJEK WISATA (Explore Indonesia) by CEB H-06*/
